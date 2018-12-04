@@ -3,24 +3,19 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>Thuis (binnen) kweken plantjes, kruiden, fruit</title>
-
+    <meta name="description" content="debug javascript">
+    <meta name="author" content="Davor Radic">
+    <title>Opdracht 1</title>
     <!-- Bootstrap core CSS -->
-    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom styles for this template -->
-    <link href="css/style.css" rel="stylesheet">
-
+    <link href="css/portfolio-item.css" rel="stylesheet">
   </head>
-
   <body>
-
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#">Thuis Kweken</a>
+        <a class="navbar-brand" href="#">JavaScript leren</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -49,8 +44,8 @@
     <div class="container">
 
       <!-- Portfolio Item Heading -->
-      <h1 class="my-4">Thuis Kweken
-        <small>Binnen kweken</small>
+      <h1 class="my-4">Debuggen
+        <small>Fix JavaScript errors!</small>
       </h1>
 
       <!-- Portfolio Item Row -->
@@ -63,15 +58,22 @@
         </div>
 
         <div class="col-md-4">
-          <h3 class="my-3">Thuis (binnen) kweken</h3>
-          <p>kweek binnen.</p>
           <h3 class="my-3">Project Details</h3>
-          <ul>
-            <li>Lorem Ipsum</li>
-            <li>Dolor Sit Amet</li>
-            <li>Consectetur</li>
-            <li>Adipiscing Elit</li>
-          </ul>
+          <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">bedrijf</th>
+              <th scope="col">prijs</th>
+              <th scope="col">levertijd</th>
+              <th scope="col">verzend<br>kosten</th>
+              <th scope="col">Kopen</th>
+            </tr>
+          </thead>
+          <tbody id="affliate_results">
+
+          </tbody>
+        </table>
+
         </div>
 
       </div>
@@ -79,9 +81,7 @@
 
       <!-- Related Projects Row -->
       <h3 class="my-4">Related Projects</h3>
-
       <div class="row">
-
         <div class="col-md-3 col-sm-6 mb-4">
           <a href="#">
             <img class="img-fluid" src="http://placehold.it/500x300" alt="">
@@ -115,14 +115,19 @@
     <!-- Footer -->
     <footer class="py-5 bg-dark">
       <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; thuis-kweken.nl</p>
+        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2018</p>
       </div>
       <!-- /.container -->
     </footer>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="node_modules/jquery/dist/jquery.min.js"></script>
-    <!--<script src="node_modules/bootstrap/js/bootstrap.bundle.min.js"></script>-->
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
 
   </body>
 

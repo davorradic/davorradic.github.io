@@ -13,3 +13,8 @@ body {
     padding-top: 56px;
   }
 }
+.link {
+     cursor:pointer;
+     color:blue;
+     text-decoration:underline;
+}
